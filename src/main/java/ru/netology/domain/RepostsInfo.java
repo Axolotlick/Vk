@@ -1,22 +1,22 @@
 package ru.netology.domain;
 
 public class RepostsInfo {
-    private int repostCount;
-    private boolean userRepost;
+    private int count;
+    private int userReposted;
 
     // + get/set на все поля
 
-    public int getRepostCount() {
-        return repostCount;
+    public int getCount() {
+        return count;
     }
-    public void setRepostCount(int repostCount) {
-        this.repostCount = repostCount;
+    public void setCount(int count) {
+        this.count = count;
     }
 
-    public boolean getUserLRepost() {
-        return userRepost;
+    public int getUserReposted() {
+        return userReposted;
     }
-    public void setUserRepost(boolean userRepost) {
-        this.userRepost = userRepost;
+    public void setUserReposted(int userReposted) {
+        this.userReposted = userReposted;
     }
 }

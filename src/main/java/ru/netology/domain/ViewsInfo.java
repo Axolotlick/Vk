@@ -1,14 +1,14 @@
 package ru.netology.domain;
 
 public class ViewsInfo {
-    private int viewsCount;
+    private int count;
 
     // + get/set на все поля
 
-    public int getViewsCount() {
-        return viewsCount;
+    public int getCount() {
+        return count;
     }
-    public void setViewsCount(int viewsCount) {
-        this.viewsCount = viewsCount;
+    public void setCount(int count) {
+        this.count = count;
     }
 }

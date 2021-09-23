@@ -1,30 +1,38 @@
 package ru.netology.domain;
 
 public class LikesInfo {
-    private int whoLiked;
-    private int likesCount;
-    private boolean userLike;
+    private int count;
+    private int userLikes;
+    private boolean canLike;
+    private boolean canPublish;
 
     // + get/set на все поля
 
-    public int getWhoLiked() {
-        return whoLiked;
+    public int getCount() {
+        return count;
     }
-    public void setWhoLiked(int whoLiked) {
-        this.whoLiked = whoLiked;
-    }
-
-    public int getLikesCount() {
-        return likesCount;
-    }
-    public void setLikesCount(int likesCount) {
-        this.likesCount = likesCount;
+    public void setCount(int count) {
+        this.count = count;
     }
 
-    public boolean getUserLike() {
-        return userLike;
+    public int getUserLikes() {
+        return userLikes;
     }
-    public void setUserLike(boolean userLike) {
-        this.userLike = userLike;
+    public void setUserLikes(int userLikes) {
+        this.userLikes = userLikes;
+    }
+
+    public boolean IsСanLike() {
+        return canLike;
+    }
+    public void setСanLike(boolean canLike) {
+        this.canLike = canLike;
+    }
+
+    public boolean IsСanPublish() {
+        return canPublish;
+    }
+    public void setСanPublish(boolean canPublish) {
+        this.canPublish = canPublish;
     }
 }
